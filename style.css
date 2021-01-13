@@ -1,0 +1,32 @@
+body {
+  text-align: center;
+  background: white;
+  position: relative;
+}
+
+.body {
+    font-size: 19px;
+}
+.unbehaved-element {
+    font-size: 2em;
+}
+@media(max-width: 320px) {
+  body {
+    font-size: 15px;
+  }
+}
+@media(min-width: 641px) {
+  body {
+    font-size: 32px;
+  }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+}
+
+/* Iphone 5 */
+@media (max-width: 320px) {
+
+}
